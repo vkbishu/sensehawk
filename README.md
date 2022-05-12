@@ -4,8 +4,8 @@
 
 ### Clone and install depencencies
 ```
-git clone https://github.com/vkbishu/aspire-ui.git
-cd aspire-ui
+git clone https://github.com/vkbishu/sensehawk.git
+cd sensehawk
 npm install
 ```
 
