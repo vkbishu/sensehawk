@@ -79,7 +79,6 @@ export default {
     methods: {
         ...mapMutations(['addHighlight']),
        getSelectionCharacterOffsetWithin(element) {
-           // https://stackoverflow.com/questions/4811822/get-a-ranges-start-and-end-offsets-relative-to-its-parent-container
             let start = 0;
             let end = 0;
             let text = '';
