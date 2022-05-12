@@ -1,0 +1,63 @@
+/* import the necessary Bootstrap files */
+// Required
+//@import "~bootstrap/scss/functions";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import "_variables";
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+.form-control {
+    font-size: 13px;
+    padding: 10px;
+    height: auto;
+}
+
+.white_box {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.border_box [class^="col-"] {
+    padding: 20px;
+    box-shadow: 1px 0 0 0 #ced4da, 0 1px 0 0 #ced4da, 1px 1px 0 0 #ced4da, 1px 0 0 0 #ced4da inset, 0 1px 0 0 #ced4da inset;
+}
+
+
+// text
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
+.text-green {
+    color: $light-green;
+}
+
+
+.heading {
+    font-weight: 700;
+}
+
+mark,.mark {
+    background-color: #d6edbc;
+    padding: 0;
+}
