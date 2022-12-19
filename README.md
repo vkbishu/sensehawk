@@ -1,4 +1,4 @@
-# Aspire UI
+# SenseHawk UI
 
 ## Project setup
 
